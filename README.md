@@ -9,7 +9,7 @@ To simplify navigation, the planet has been divided up into a grid. The vehicle�
 - Implement commands that move the vehicle forward/backward (‘F’,’B’). The vehicle may only move forward/backward by one grid point, and must maintain the same heading.
 - Implement commands that turn the vehicle left/right (‘L’,’R’). These commands make the vehicle spin 90 degrees left or right respectively, without moving from its current spot.
 - Implement wrapping from one edge of the grid to another. (The planet KF96 is a sphere after all) , example: if the vehicle in the position (0, 0, N) , which means the vehicle is in the bottom left corner and facing North, if it receive a commande (LF) , its new position will be on the other side of the planet which means the bottom left corner facing the west
-  Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the vehicle moves up to the last possible point and reports the obstacle.
+- Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the vehicle moves up to the last possible point and reports the obstacle.
 
 ## Here is an example
 
